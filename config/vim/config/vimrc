@@ -1,0 +1,3 @@
+runtime config/plugin.vim
+runtime config/config.vim
+runtime config/keymap.vim

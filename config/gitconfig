@@ -1,0 +1,36 @@
+[core]
+	editor = vim
+[color]
+	ui = auto
+[alias]
+	a = add
+	ai = add -i
+	##########
+	b = branch
+	##########
+	c = commit
+	cm = commit -m
+	camd = commit --amend
+	##########
+	cp = cherry-pick
+	##########
+	d = diff
+	##########
+	l = log
+	la = log --all --graph --decorate
+	##########
+	o = checkout
+	##########
+	ps = push
+	##########
+	pl = pull
+	##########
+	rb = rebase
+	##########
+	re = reset
+	##########
+	s = show
+	##########
+	bl = blame
+	##########
+	st = status
