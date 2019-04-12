@@ -1,3 +1,9 @@
 runtime config/plugin.vim
-runtime config/config.vim
+
+if(has("win32") || has("win64"))
+  runtime config/config_win.vim
+else
+  runtime config/config.vim
+endif
+
 runtime config/keymap.vim
