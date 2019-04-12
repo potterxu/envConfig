@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 Plug 'Yggdroot/LeaderF'
+Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'fatih/vim-go', {'for': 'go'}
 Plug 'mileszs/ack.vim'
 Plug 'milkypostman/vim-togglelist'
