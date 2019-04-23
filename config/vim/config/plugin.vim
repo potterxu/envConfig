@@ -10,6 +10,7 @@ Plug 'tmhedberg/matchit'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 " Plug 'Yggdroot/LeaderF'
@@ -48,3 +49,9 @@ nnoremap <Leader>w :StripWhitespace<CR>
 " Plug 'tpope/vim-repeat'
 
 " Plug 'tpope/vim-surround'
+
+" Plug 'vim-airline/vim-airline'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#syntastic#enabled = 1
+set laststatus=2
