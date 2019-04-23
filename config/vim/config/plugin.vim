@@ -6,6 +6,7 @@ Plug 'mileszs/ack.vim'
 Plug 'milkypostman/vim-togglelist'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'rust-lang/rust.vim', {'for': 'rs'}
+Plug 'tmhedberg/matchit'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
