@@ -2,7 +2,6 @@ filetype plugin on
 
 set ic
 set number
-set smartindent
 set hlsearch
 
 if(has("win32") || has("win64"))
