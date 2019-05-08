@@ -27,7 +27,7 @@ let g:go_highlight_build_constraints = 1
 map <F4> :Ack<space>
 nnoremap <Leader>ag :Ack!<CR>
 if executable('ag')
-  let g:ackprg = 'ag --vimgrep'
+	let g:ackprg = 'ag --vimgrep'
 endif
 let g:ackhighlight = 1
 let g:ack_qhandler = "botright copen 15"
